@@ -2,6 +2,8 @@ import './App.css'
 import Button from './components/Button'
 import React, { useState } from 'react'
 import PackingLIst from './components/PackingLIst';
+import ScientistList from './components/ScientistList';
+import Teaset from './components/Teaset';
 
 
 const user = {
@@ -50,6 +52,10 @@ function App() {
      <h1>_________________________________________________________</h1>
      <h1>_________________________________________________________</h1>
      <PackingLIst/>
+     <h1>_________________________________________________________</h1>
+     <ScientistList/>
+     <h1>_________________________________________________________</h1>
+     <Teaset/>
     </>
   )
 }
